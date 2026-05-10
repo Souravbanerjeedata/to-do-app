@@ -1,7 +1,8 @@
 import { createHomeStyles } from "@/assets/styles/home.styles";
+import Header from "@/components/Header";
 import useTheme from "@/hooks/useTheme";
 import { LinearGradient } from "expo-linear-gradient";
-import { StatusBar, Text, TouchableOpacity, View } from "react-native";
+import { StatusBar, Text, TouchableOpacity } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
@@ -15,11 +16,10 @@ export default function Index() {
     >
       <StatusBar barStyle={colors.statusBarStyle} />
       <SafeAreaView style={homeStyles.safeArea}>
-        <View style={homeStyles.container}>
-          <TouchableOpacity onPress={toggleDarkMode}>
-            <Text>toggle the mode</Text>
-          </TouchableOpacity>
-        </View>
+        <Header />
+        <TouchableOpacity onPress={toggleDarkMode}>
+          <Text>toggle the mode</Text>
+        </TouchableOpacity>
       </SafeAreaView>
     </LinearGradient>
   );
