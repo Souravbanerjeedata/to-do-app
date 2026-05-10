@@ -18,7 +18,7 @@ export default function Header() {
     : 0;
   const totalCount = todos ? todos.length : 0;
   const progressPercentage =
-    totalCount > 0 ? (totalCount / completedCount) * 100 : 0;
+    totalCount > 0 ? (completedCount / totalCount) * 100 : 0;
   return (
     <View style={homeStyles.header}>
       <View style={homeStyles.titleContainer}>

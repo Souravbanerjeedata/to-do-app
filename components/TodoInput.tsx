@@ -19,6 +19,7 @@ export default function TodoInput() {
         await addTodo({ text: newTodo.trim() });
         setNewTodo("");
       } catch (error) {
+        console.log(error);
         Alert.alert("Error!", "Failed to add todo");
       }
     }
