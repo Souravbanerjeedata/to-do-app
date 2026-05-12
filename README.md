@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+# To-Do App 📋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, beautiful and fully functional To-Do application built with **React Native**, **Expo**, and **Convex** for real-time backend.
 
-## Get started
+![Expo](https://img.shields.io/badge/Expo-000020.svg?style=for-the-badge&logo=expo&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232C.svg?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Convex](https://img.shields.io/badge/Convex-4A3AFF.svg?style=for-the-badge)
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- ✅ **Add, edit, complete, and delete** tasks
+- 🎨 **Beautiful modern UI** with gradient backgrounds and smooth animations
+- 🌗 **Dark/Light theme support** (with custom theme hook)
+- 🔄 **Real-time synchronization** powered by Convex
+- 📱 **Cross-platform** — iOS, Android, and Web
+- ⚡ **Fast and responsive** using React Native best practices
+- 🧭 **Tab navigation** (Home + Settings)
 
-2. Start the app
+## 🛠 Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+- **Framework**: Expo (SDK 54) + Expo Router
+- **Language**: TypeScript
+- **Backend**: Convex (real-time database & serverless functions)
+- **UI**: React Native + Linear Gradients + Custom components
+- **State Management**: Convex React hooks (`useQuery`, `useMutation`)
+- **Styling**: StyleSheet with dynamic theming
 
-In the output, you'll find options to open the app in a
+## 🚀 Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Prerequisites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Node.js (v18+)
+- Expo CLI (`npm install -g expo-cli`)
+- A Convex account (free tier is sufficient)
