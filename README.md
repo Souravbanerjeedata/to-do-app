@@ -7,7 +7,6 @@
     <img src="public/readme/light3.png" alt="Project Banner" width='150' height='300'>
     <img src="public/readme/edit.png" alt="Project Banner" width='300' height='300'>
     <img src="public/readme/alert.png" alt="Project Banner" width='300' height='300'>
-  <h3 align="center">Guees My Number Game</h3>
 </div>
 
 # To-Do App 📋
